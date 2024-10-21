@@ -245,7 +245,8 @@ dan ini hasil program tersebut:
 
 screnshot kode program:
 
-![Screenshot 2024-10-19 124142](https://github.com/user-attachments/assets/6d5e4e98-68cc-48a3-ab4b-e14fd07837f6)
+![WhatsApp Image 2024-10-21 at 21 01 22_2c31d1fa](https://github.com/user-attachments/assets/71c9de4b-c64c-4a7b-a142-784c68fb750d)
+
 
 Dan hasil flowchart dari program tersebut:
 
