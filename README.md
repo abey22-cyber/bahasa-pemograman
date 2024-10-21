@@ -193,7 +193,8 @@ Ini adala hasil program tersebut :
 
 dengan eksekusi program:
 
-![Screenshot 2024-10-19 120703](https://github.com/user-attachments/assets/8ecdf7e8-5ad4-43e0-921d-de5f58b3b997)
+![WhatsApp Image 2024-10-21 at 20 47 33_26dd8084](https://github.com/user-attachments/assets/c1b3ca79-e9d5-47b3-9598-79ab471b059f)
+
 
 dan flowchart sebagai berikut:
 
