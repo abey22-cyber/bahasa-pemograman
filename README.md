@@ -69,27 +69,27 @@ Berikut Hasil Kode Program Diatas:
 
 ![Screenshot 2024-10-19 111502](https://github.com/user-attachments/assets/9afa0286-fcd8-437e-8319-0da6019ef34e)
 
-python
+```python
 w, x, y, z, =10, 15, 20, 25
-`
+```
 Variable yang seperti ini menentukan parameter,jadi variable ini tidak bisa memasukan variable angka yang sudah ditentukan w = 10,x=15,y=20,z=25
 
-python
+```python
 print(w, x, y, z,)
-`
+```
 
 Fungsi ini hanya mencetak saja yang menggunakan fungsi print(), tetapi di karenakan mencetak parameter,koma tersebut di hilangkan
 
-python
+```python
 print(w, x, y, z, sep=',')
-`
+```
 karena pemisahnya dihilangkan,kita menggunakan fungsi `sep`atau`split()`dan kita memasukkan pemisahnya didalam string akan memunculkan cetakan yang sesuai keinginan anda dalam memisahkan sesuatu parameter
 
 ## STRING FORMAT
 
 ![Screenshot 2024-10-19 112724](https://github.com/user-attachments/assets/d5f2d127-76c0-4653-996c-aa5e6d201274)
 
-python
+```python
 print(0, 10**0)
 print(1, 10**1)
 print(2, 10**2)
@@ -113,10 +113,10 @@ print('{0:>3} {1:>16}'.format(7, 10**7))
 print('{0:>3} {1:>16}'.format(8, 10**8))
 print('{0:>3} {1:>16}'.format(9, 10**9))
 print('{0:>3} {1:>16}'.format(10, 10**10))
-`
+```
 String Format adalah proses memasukan variable atau string kustom ke dalam teks yang sudah ditentukan,dan dapat digunakan untuk berbagai keperluan,seperti memasukan judul dalam grafik,menampilkan pesan atau kesalahan, atau meneruskan kesalahan ke suatu fungsi 
 
-python
+```python
 print(0, 10**0)
 print(1, 10**1)
 print(2, 10**2)
@@ -127,11 +127,11 @@ print(6, 10**5)
 print(8, 10**8)
 print(9, 10**9)
 print(10, 10**10)
-`
+```
 
 Nilai pertama dalam setiap pasangan adalah angka dari 0 hingga 10, kode program ini dihitung dengan menggunakan operasi pangkat atau fungsinya (**) untuk menaikkan 10 ke pangkat yang sesuai dengan angka pertama, yang bisa di bahasa manusiakan variable 0 = 10 pangkat 0, variable 1 10 pangkat 1 dan seterusnya hingga variable 10 yaitu 10 pangkat 10, dan di cetak dengan fungsi print()
 
-python
+```python
 print('{0:>3} {1:>16}'.format(0, 10**0))
 print('{0:>3} {1:>16}'.format(1, 10**1))
 print('{0:>3} {1:>16}'.format(2, 10**2))
@@ -143,7 +143,7 @@ print('{0:>3} {1:>16}'.format(7, 10**7))
 print('{0:>3} {1:>16}'.format(8, 10**8))
 print('{0:>3} {1:>16}'.format(9, 10**9))
 print('{0:>3} {1:>16}'.format(10, 10**10))
-`
+```
 
 Kode ini mencetak 11 baris dengan format {0:3} {1:16} yang di gunakan untuk mengatur format string
 
@@ -155,7 +155,7 @@ angka 1 diformat untuk memiliki lebar 16 Karakter atau 16 kali spasi dengan pera
 
 # 3 INPUT BILANGAN
 
-Python
+```Python
 a = int(input("masukan angka pertama: "))
 b = int(input("masukan angka kedua: "))
 c = int(input("masukan angka ketiga: "))
@@ -166,25 +166,25 @@ elif b > a and b > c:
     print(f"angka lebih besar adalah {b}")
 else:
     print(f"angka lebih besar adalah {c}")
-`
+```
 Program ini akan menginputkan 3 bilangan dari a yang sampai dengan c.
 
-python
+```python
 if a > b and a > c:
     print(f"angka lebih besar adalah {a}")
-`
+```
 Karna Jika {a} lebih besar dari {b} dan {a} lebih besar dari {c}, output yang keluar adalah {a}
 
-python
+```python
 elif b > a and b > c:
    print(f"angka lebih besar adalah {b}")
-`
+```
 dan jika {b} lebih besar dari {a} dan {b} lebih besar dari {c} maka output yang keluar adalah {b}
 
-python
+```python
 else:
     print(f"angka lebih besar adalah {c}")
-`
+```
 Jika inputan yang diatas lebih kecil dari {c} maka output {c} yang akan keluar
 
 Ini adala hasil program tersebut :
@@ -202,7 +202,7 @@ dan flowchart sebagai berikut:
 
 # MENENTUKAN BILANGAN TERBESAR DARI N DAN BERIKAN ANGKA 0
 
-python
+```python
 while True:   
     N = int(input("masukan angka: "))
 
@@ -211,33 +211,34 @@ while True:
         break
     if N > max:
         max = N
-`
+```
 
 Untuk menentukan bilangan terbesar dari n dalam Python, Anda bisa menggunakan fungsi max()
 
-python
+```python
 max = 0
-`
+```
 Masukkan daftar angka ke fungsi max(), Fungsi max() akan mengembalikan angka terbesar dalam daftar
 
 Fungsi max() adalah fungsi bawaan Python yang berguna untuk menemukan nilai terbesar dalam suatu iterable atau dalam serangkaian argumen reguler.
 
-python
+```python
 if N == 0:
         print(f"angka yang terbesar adalah: {max}")
         break
+```
 
 Fungsi ini jika Kita memasukan inputan integer yaitu 0 akan berlanjut ke fungsi break program dihentikan yang artinya selesai.
 
-python
+```python
 if N > max:
         max = N
-`
+```
 Jika Inputan yang kita masukan lebih besar dari fungsi max() di atas, program akan melanjutkan ke proses max = N yang artinya Angka terbesar akan Mencetak Inputan Bilangan yang kita masukan yang terbesar di cetak
 
-python
+```python
 while True:
-`
+```
 While true: adalah konstruksi perulangan dalam bahasa pemrograman Python yang memungkinkan blok kode diulang tanpa batas. dan karna di kode program diatas ada fungsi While True: Program terus berlanjut terus menerus, dan ketika kita ingin berhenti saya berikan decision N==0 dengan fungsi di bawahnya break seperti di atas yang berarti Inputan Integer yang di masukan angka 0 program akan di hentikan dan memunculkan cetakan yang terbesar
 
 dan ini hasil program tersebut:
