@@ -23,7 +23,7 @@ MATKUL:BAHASA PEMOGRAMAN
 ## PENGGUNAAN END
 <img width="286" alt="image" src="https://github.com/user-attachments/assets/6d7f5c02-fa7a-46bf-97b4-1bf8f3a45e90">
 
-python
+````python
 print('A', end='')
 print('b', end='')
 print('c', end='')
@@ -31,13 +31,13 @@ print()
 print('x')
 print('y')
 print('z')
-`
+```
 
 Parameter end dalam fungsi Print () di python di gunakan untuk menambahkan string(" ")apapun diakhir dan mengeluarkan pertanyaan print
 
-python
+````python
 print()
-`
+```
 
 Secara default,fungsi print() akan mengakhiri dengan baris baru,dan akan secara otomatis karakter baris baru di akhir outputnya
 
